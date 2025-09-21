@@ -2,6 +2,27 @@
 
 A React Native mobile application for sending Celestia tokens using natural language with an AI-powered chatbot assistant.
 
+## 📱 Try the App
+
+### Download & Install
+
+#### Android APK
+- **Direct Download**: [CelestiaTransactionMobile.apk](./CelestiaTransactionMobile.apk) (56MB)
+- **Installation**: Enable "Install from Unknown Sources" in Android settings, then install the APK
+
+#### iOS App (Simulator)
+- **Download**: [CelestiaTransactionMobile-iOS.tar.gz](./CelestiaTransactionMobile-iOS.tar.gz) (13MB)
+- **Installation**: Extract and drag `CelestiaTransactionMobile.app` to iOS Simulator
+- **Command line**: `xcrun simctl install booted ./CelestiaTransactionMobile.app`
+
+#### Web Links (Direct Install)
+- **Android**: https://expo.dev/accounts/luucamay/projects/CelestiaTransactionMobile/builds/3eaca1e3-6e2f-4fdd-a193-a1721fb3d73c
+- **iOS**: https://expo.dev/accounts/luucamay/projects/CelestiaTransactionMobile/builds/f7c7ccc5-205b-441a-b04e-08152f2da0bf
+
+#### QR Codes
+Scan these QR codes with your device to install directly:
+- Use your device camera or Expo Go app to scan the QR codes from the build output
+
 ## Features
 
 - 🤖 **AI-Powered Chat Interface**: Natural language processing for transaction instructions
@@ -190,6 +211,25 @@ For issues or questions:
 - Verify network connectivity
 - Ensure all dependencies are installed
 - Test on different devices/simulators
+
+## Build Information
+
+### Latest Builds
+- **Android APK**: Version 1.0.0 (Build: `3eaca1e3-6e2f-4fdd-a193-a1721fb3d73c`)
+  - File: `CelestiaTransactionMobile.apk` (56MB)
+  - Application ID: `com.luucamay.CelestiaTransactionMobile`
+  
+- **iOS App**: Version 1.0.0 (Build: `f7c7ccc5-205b-441a-b04e-08152f2da0bf`)
+  - File: `CelestiaTransactionMobile.app` (13MB extracted)
+  - Bundle ID: `com.luucamay.CelestiaTransactionMobile`
+  - Target: iOS Simulator
+
+### Build with EAS
+Built using Expo Application Services (EAS Build):
+```bash
+npx eas-cli build --platform android --profile preview  # For APK
+npx eas-cli build --platform ios --profile preview      # For iOS
+```
 
 ## License
 
