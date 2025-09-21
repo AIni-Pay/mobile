@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Android and IOS app
-an android an ios version for the aini pay chatbot
-=======
 # Celestia Transaction Mobile
 
 A React Native mobile application for sending Celestia tokens using natural language with an AI-powered chatbot assistant.
