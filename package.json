@@ -1,0 +1,33 @@
+{
+  "name": "celestia-transaction-mobile",
+  "version": "1.0.0",
+  "description": "React Native mobile app for Celestia token transactions with AI chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo build",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@cosmjs/crypto": "^0.36.0",
+    "@cosmjs/encoding": "^0.36.0",
+    "@cosmjs/proto-signing": "^0.36.0",
+    "@cosmjs/stargate": "^0.36.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@walletconnect/react-native-compat": "^2.21.9",
+    "@walletconnect/universal-provider": "^2.21.9",
+    "axios": "^1.12.2",
+    "bech32": "^2.0.0",
+    "expo": "~54.0.9",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "private": true
+}
